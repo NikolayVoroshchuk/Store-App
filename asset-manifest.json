@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Store-App/static/css/main.77645732.css",
+    "main.js": "/Store-App/static/js/main.fbc20da4.js",
+    "static/media/reebokAd.jpeg": "/Store-App/static/media/reebokAd.8a03b3bb4715e203d950.jpeg",
+    "static/media/adidasAd2.jpeg": "/Store-App/static/media/adidasAd2.c5ca54a752a2f2d427d8.jpeg",
+    "static/media/creative_banner_poster.jpeg": "/Store-App/static/media/creative_banner_poster.d4a5d9e38e4791d3f645.jpeg",
+    "static/media/fashion_clothing.png": "/Store-App/static/media/fashion_clothing.cfcf652f2d20ba8f9af4.png",
+    "static/media/adidasAd.png": "/Store-App/static/media/adidasAd.a919c2ca91c8175d302f.png",
+    "static/media/favoriteIcon.png": "/Store-App/static/media/favoriteIcon.b5e89bd9991e7ca3a45c.png",
+    "static/media/emptyCartPage.png": "/Store-App/static/media/emptyCartPage.aa12337e7830c0bdb082.png",
+    "static/media/black_friday_clothes.jpeg": "/Store-App/static/media/black_friday_clothes.94b695612636a4c6faf6.jpeg",
+    "static/media/reebokAd2.jpeg": "/Store-App/static/media/reebokAd2.94ecce223f695522d6d7.jpeg",
+    "static/media/nikeAd.jpeg": "/Store-App/static/media/nikeAd.6b3dfe31021d4de06a8b.jpeg",
+    "static/media/logo1.jpeg": "/Store-App/static/media/logo1.0a5b2b19387e13635520.jpeg",
+    "index.html": "/Store-App/index.html",
+    "main.77645732.css.map": "/Store-App/static/css/main.77645732.css.map",
+    "main.fbc20da4.js.map": "/Store-App/static/js/main.fbc20da4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77645732.css",
+    "static/js/main.fbc20da4.js"
+  ]
+}
