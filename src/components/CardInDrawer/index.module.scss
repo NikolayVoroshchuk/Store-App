@@ -1,0 +1,32 @@
+.itemsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .itemImg {
+    width: 5rem;
+    margin-right: 15px;
+  }
+  h5 {
+    font-size: 13px;
+    margin: 0;
+  }
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+.wrapItemInfo {
+  width: 80%;
+}
+.deleteItemImg {
+  padding-left: 10px;
+  button {
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    svg {
+      cursor: pointer;
+    }
+  }
+}

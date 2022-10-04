@@ -1,0 +1,34 @@
+.favorite {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.cardTitle {
+  h4 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+.cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
+  img {
+    height: 120px;
+  }
+}
+.footerCard {
+  display: flex;
+  justify-content: space-between;
+  .addToCart {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  .image {
+    width: 80%;
+    img {
+      width: 500px;
+      height: 550px;
+    }
+  }
+  .infoProduct {
+    width: 100%;
+    padding-top: 50px;
+    .description {
+      margin-top: 30px;
+      h4 {
+        margin-top: 0px;
+      }
+    }
+  }
+  .rating {
+    display: flex;
+    .rate {
+      margin-right: 50px;
+    }
+  }
+  .price {
+    margin-top: 20px;
+  }
+  .addToCart {
+    button {
+      cursor: pointer;
+      height: 40px;
+      width: 200px;
+      background-color: #07bc0c;
+      border: none;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+      color: white;
+      &:hover {
+        background-color: rgb(239, 239, 2);
+        color: black;
+      }
+    }
+  }
+}

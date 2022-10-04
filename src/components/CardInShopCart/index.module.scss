@@ -1,0 +1,50 @@
+.itemsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .itemImg {
+    width: 5rem;
+    margin-left: 15px;
+  }
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+.wrapItemInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  .changeQuantity {
+    width: 100%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+    }
+    button {
+      height: 30px;
+      width: 30px;
+      padding: 5px;
+      cursor: pointer;
+      padding: 0;
+      border: none;
+    }
+  }
+}
+.deleteItemImg {
+  button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    svg {
+      cursor: pointer;
+    }
+  }
+}

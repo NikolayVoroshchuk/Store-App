@@ -1,0 +1,29 @@
+.uk-navbar-container {
+  height: 80px;
+  border-bottom: 1px solid #eaeaea;
+
+  .uk-navbar-left {
+    padding: 0 30px;
+    .uk-navbar-nav {
+      .uk-active {
+        a {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .uk-navbar-right {
+    padding: 0 30px;
+    .uk-navbar-nav {
+      .uk-active {
+        cursor: pointer;
+        margin-right: 30px;
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}

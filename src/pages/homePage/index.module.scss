@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}

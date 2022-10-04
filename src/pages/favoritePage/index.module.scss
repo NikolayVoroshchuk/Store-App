@@ -1,0 +1,36 @@
+.wrapper {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  h4 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .emptyCartImg {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+  }
+  button {
+    margin: 30px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 350px;
+    background-color: #07bc0c;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    &:hover {
+      background-color: rgb(239, 239, 2);
+      color: black;
+    }
+  }
+}

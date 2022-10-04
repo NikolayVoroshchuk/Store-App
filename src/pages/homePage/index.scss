@@ -1,0 +1,40 @@
+.uk-container {
+  margin-top: 45px;
+  .uk-text-lead {
+    display: flex;
+    align-items: baseline;
+    margin: 60px 0;
+    ul {
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+      li {
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-right: 20px;
+        margin-top: 0px;
+        &::first-letter {
+          text-transform: uppercase;
+        }
+        &:last-child {
+          margin-right: 0px;
+        }
+        &::after {
+          display: block;
+          content: "";
+          border-bottom: solid 2px yellowgreen;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+        }
+        &:hover::after {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+  .uk-input {
+    border-radius: 10px;
+  }
+}
