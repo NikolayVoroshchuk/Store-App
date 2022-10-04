@@ -9,6 +9,12 @@ import 'react-toastify/ReactToastify.min.css';
 function App() {
   return (
     <div className="App">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/detailsPage" element={<ProductPage />} />
+        <Route path="/favoritePage" element={<FavoritePage />} />
+        <Route path="/cartPage" element={<CartPage />} />
+      </Routes>
       <ToastContainer
         newestOnTop
         hideProgressBar
@@ -16,12 +22,6 @@ function App() {
         theme={'colored'}
         limit={3}
       />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/detailsPage" element={<ProductPage />} />
-        <Route path="/favoritePage" element={<FavoritePage />} />
-        <Route path="/cartPage" element={<CartPage />} />
-      </Routes>
     </div>
   );
 }
