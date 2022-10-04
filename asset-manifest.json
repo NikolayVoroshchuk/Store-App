@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Store-App/static/css/main.77645732.css",
-    "main.js": "/Store-App/static/js/main.fbc20da4.js",
+    "main.js": "/Store-App/static/js/main.e3fb6bb5.js",
     "static/media/reebokAd.jpeg": "/Store-App/static/media/reebokAd.8a03b3bb4715e203d950.jpeg",
     "static/media/adidasAd2.jpeg": "/Store-App/static/media/adidasAd2.c5ca54a752a2f2d427d8.jpeg",
     "static/media/creative_banner_poster.jpeg": "/Store-App/static/media/creative_banner_poster.d4a5d9e38e4791d3f645.jpeg",
@@ -15,10 +15,10 @@
     "static/media/logo1.jpeg": "/Store-App/static/media/logo1.0a5b2b19387e13635520.jpeg",
     "index.html": "/Store-App/index.html",
     "main.77645732.css.map": "/Store-App/static/css/main.77645732.css.map",
-    "main.fbc20da4.js.map": "/Store-App/static/js/main.fbc20da4.js.map"
+    "main.e3fb6bb5.js.map": "/Store-App/static/js/main.e3fb6bb5.js.map"
   },
   "entrypoints": [
     "static/css/main.77645732.css",
-    "static/js/main.fbc20da4.js"
+    "static/js/main.e3fb6bb5.js"
   ]
 }
